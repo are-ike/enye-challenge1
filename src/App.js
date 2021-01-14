@@ -62,6 +62,7 @@ const App = () => {
     setCurrentPage(1);
   }
 
+    //Filter
   const filterGender = (gender) => {
     filteredProfiles = filteredProfiles.filter(profile => profile.Gender === gender)
   }
@@ -73,11 +74,10 @@ const App = () => {
   let filteredProfiles = [...profiles];
 
   if(searchInput.length !== 0){
-    filteredProfiles = filteredProfiles.filter(profile => profile.FirstName.toLowerCase()
-    .includes(searchInput.toLowerCase()) || profile.LastName.toLowerCase()
-    .includes(searchInput.toLowerCase()) )
+    filteredProfiles = filteredProfiles.filter(profile => 
+      `${profile.FirstName} ${profile.LastName}`.toLowerCase().includes(searchInput.toLowerCase()) )
   }
-
+  
   if(filterGenderOption.length !== 0){
     filterGender(filterGenderOption);
   }
@@ -85,7 +85,7 @@ const App = () => {
     filterPayment(filterPaymentOption);
   }
 
-  //Filter
+
   const filterGenderHandler = (option) => {
     setGenderOption(option);
     setCurrentPage(1);

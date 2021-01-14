@@ -1,0 +1,51 @@
+.searchDiv{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 2rem;
+    margin: 1rem;
+    margin-left: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+}
+ .focus{
+    border: 1px solid grey;
+    transition: all 0.6s;
+}
+.icon{
+    font-size: 1rem;
+    margin: 1rem;
+    margin-left: auto;
+    opacity: 0.2;
+}
+.searchInput{
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    width: 100%;
+    margin: 0 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 1009px){
+    .searchDiv{
+        width: 50%;
+    }
+}
+@media (max-width: 832px){
+    .searchInput{
+      font-size: 0.8rem;
+    }
+}
+@media (max-width: 769px){
+    .searchDiv{
+      width: 100%;
+      margin-bottom: 0;
+    }
+}
+@media (max-width: 422px){
+    .searchInput{
+      font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,96 @@
+.bold{
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin: 0.2rem;
+    margin-left: 0;
+}
+.profile{
+    font-size: 0.6rem;
+    height: 4rem;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin-bottom: 0.1rem;
+}
+.img-div{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    border:  black solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: gray;
+    font-size: 1rem;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 8vh;
+    margin: 2rem 0;
+    box-sizing: border-box;
+}
+.heading{
+    margin: 0;
+    margin-top: 0.3rem;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+.btn{
+    margin-left: auto;
+    background-color:black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+    box-shadow: 0 2px 3px grey;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+.btn:hover{
+    background-color: #F15025;
+    
+}
+@media (max-width: 550px){
+    .profile{
+        padding: 0 0.5rem;
+    }
+    .heading, .bold, .btn, .icon{
+        font-size: 0.6rem;
+
+    }
+    .img-div{
+        width: 1rem;
+        height: 1rem;
+    }
+}
+@media (max-width: 380px){
+    .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.5rem;
+    }
+    .img-div{
+        margin-right: 0.4rem;
+    }
+    .heading{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 340px){
+    .img-div{
+        display: none;
+    }
+}

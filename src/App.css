@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.App{
+  position: relative;
+  box-sizing: border-box;
+  padding: 1rem 10rem;
+  font-family: 'Raleway', sans-serif;
+}
+.home{
+  box-shadow: 0 3px 6px grey;
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+.search-filter{
+  display: flex;
+}
+#loader{
+  height: 3rem;
+  width: 3rem;
+}
+.orange{
+  color:  #F15025;
+}
+@media (max-width: 1330px){
+  .App{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 769px){
+  .search-filter{
+    flex-direction: column;
+  }
+}

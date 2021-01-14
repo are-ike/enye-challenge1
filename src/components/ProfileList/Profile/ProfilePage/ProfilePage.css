@@ -74,16 +74,16 @@ label{
     .avatar{
         height: 40%;
     }
-}
-@media (max-width: 330px){
-    .avatar{
-        height: 20%;
-    }
     .right{
         margin-left: 1%;
     }
     .back-btn{
         margin-right: 0.5rem;
+    }
+}
+@media (max-width: 330px){
+    .avatar{
+        height: 20%;
     }
     .container{
         padding: 0.5rem;

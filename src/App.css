@@ -31,3 +31,8 @@
     flex-direction: column;
   }
 }
+@media (max-width: 400px){
+  .App{
+    padding: 0;
+  }
+}

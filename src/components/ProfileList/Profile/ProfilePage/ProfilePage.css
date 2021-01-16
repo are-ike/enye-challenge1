@@ -55,7 +55,9 @@ label{
     margin-top: 1rem;
     display: flex;
     width: 100%;
-    padding: 0 1rem;
+}
+.left{
+    margin-right: 0;
 }
 .right{
     margin-left: 8%;

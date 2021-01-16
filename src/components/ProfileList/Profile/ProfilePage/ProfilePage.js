@@ -51,7 +51,7 @@ const ProfilePage = ({profile, closeProfilePage}) => {
                         </div>
                     </div>
                     <div className="btm-container">
-                        <div>
+                        <div className="left">
                             <label>Credit Card Type</label>
                             <p className="paragraph">{CreditCardType}</p>
                             <label>Credit Card Number</label>

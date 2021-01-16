@@ -1,3 +1,8 @@
+.wrapper{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
 .back-btn{
     height: 2rem;
     margin-right: 2rem;
@@ -17,6 +22,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    margin: 0;
     border: solid 1px darkgray;
     box-shadow: 0 2px 5px grey;
     background-color: #f0f0f0;
@@ -53,6 +59,8 @@ label{
 .btm-container{
     margin-top: 1rem;
     display: flex;
+    width: 100%;
+    padding: 0 1rem;
 }
 .right{
     margin-left: 8%;
@@ -78,7 +86,7 @@ label{
         margin-left: 1%;
     }
     .back-btn{
-        margin-right: 0.5rem;
+        margin-right: 0rem;
     }
 }
 @media (max-width: 330px){

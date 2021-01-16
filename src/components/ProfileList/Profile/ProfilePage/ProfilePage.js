@@ -22,7 +22,7 @@ const ProfilePage = ({profile, closeProfilePage}) => {
     setTimeout(()=>{ setLoading(false)}, 2000);
     
     return(
-        <div>
+        <div className='wrapper'>
             {loading ? <div  className="App" style={styleLoader}>
                 <img src={Loader} alt="loader" id="loader"/>
             </div>:

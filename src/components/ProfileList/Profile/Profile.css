@@ -11,8 +11,9 @@
     padding: 0 2rem;
     display: flex;
     align-items: center;
-    border: 1px solid lightgray;
-    margin-bottom: 0.1rem;
+    /* border: 1px solid lightgray; */
+    margin-bottom: 0.6rem;
+    background-color: #e6e6e6;
 }
 .img-div{
     width: 3rem;

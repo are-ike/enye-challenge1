@@ -60,8 +60,6 @@ const ProfilePage = ({profile, closeProfilePage}) => {
                             <p className="paragraph">{PaymentMethod}</p>
                             <label>Last Login</label>
                             <p className="paragraph">{LastLogin}</p>
-                            <label>URL</label>
-                            <p className="paragraph">{profile.URL}</p>
                         </div>
                         <div className="right">
                             <label>Longitude</label>
@@ -74,6 +72,8 @@ const ProfilePage = ({profile, closeProfilePage}) => {
                             <p className="paragraph">{MacAddress}</p>
                         </div>
                     </div>
+                        <label>URL</label>
+                            <p className="paragraph">{profile.URL}</p>
                 </div>
 
             </div>
